@@ -52,9 +52,7 @@ module.exports = {
       {
         text: 'Git仓库',
         items: [
-          { text: 'Star', link: 'https://gitee.com/yang_dev/my-vuepress' },
-          { text: 'GitHub地址', link: 'https://github.com/fffyang' },
-          { text: '码云地址', link: 'https://gitee.com/yang_dev' }
+          { text: 'GitHub地址', link: 'https://github.com/luo199393' },
         ]
       }        
     ],
