@@ -1,5 +1,5 @@
 module.exports = {
-  title: '山有木兮木有枝',
+  title: '山有木兮水',
   description: '云想衣裳花想容，春风拂槛露华浓。若非群玉山头见，会向瑶台月下逢。',
   dest: './dist', // 设置输出目录
   // 注入到当前页面的 HTML <head> 中的标签
