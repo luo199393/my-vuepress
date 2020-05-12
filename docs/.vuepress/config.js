@@ -9,6 +9,10 @@ module.exports = {
       rel: 'icon',
       href: '/icon.png'
     }],// 增加一个自定义的 favicon(网页标签的图标)
+	// add jquert and fancybox
+        ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js' }],
+        ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js' }],
+        ['link', { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css' }]
   ],
   markdown: {
     lineNumbers: true // 代码块显示行号
@@ -18,6 +22,12 @@ module.exports = {
     // 导航栏配置
     nav:[
       // 下拉列表
+	  {
+        text: 'springcloud',
+        items: [
+          { text: 'springcloudH版', link: '/springcloudH/consul' }
+        ]
+      },
       {
         text: 'css+js',
         items: [
@@ -119,24 +129,17 @@ module.exports = {
         '/web/status',
         '/web/token'
       ],
-	  '/web2/': [
-        '/web2/css',
-        '/web2/selector',
-        '/web2/color',
-        '/web2/pic',
-        {
-          title: 'js',
-          children: [
-            '/web2/js/jsBasic',
-            '/web2/js/jsArray',
-            '/web2/js/jsReg',
-            '/web2/js/jsFun',
-            '/web2/js/jsImg',
-          ],
-        },
-        '/web2/iframe',
-        '/web2/status',
-        '/web2/token'
+	  '/springcloudH/': [
+        '/springcloudH/consul',
+		'/springcloudH/zookeeper',
+        '/springcloudH/eureka',
+        '/springcloudH/ribbon',
+		'/springcloudH/openFeign',
+		'/springcloudH/histrix',
+		'/springcloudH/gateway',
+		'/springcloudH/config',
+		'/springcloudH/bus',
+		'/springcloudH/Stream'			
       ],
       '/webpack/': [
         '/webpack/webpackInit',
